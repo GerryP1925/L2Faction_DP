@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Peace Zones -->
+	<zone shape="NPoly" minZ="-2444" maxZ="3556"><!-- schuttgart_peace1 -->
+		<node x="91064" y="-143193"/>
+		<node x="90200" y="-146685"/>
+		<node x="84580" y="-146745"/>
+		<node x="83600" y="-143273"/>
+		<node x="84048" y="-141429"/>
+		<node x="84922" y="-140225"/>
+		<node x="86528" y="-139365"/>
+		<node x="88292" y="-139397"/>
+		<node x="89712" y="-140205"/>
+		<node x="90660" y="-141409"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3000" maxZ="-771"><!-- goddard_peace1 -->
+		<node x="146517" y="-59854"/>
+		<node x="148916" y="-59847"/>
+		<node x="151301" y="-58338"/>
+		<node x="152005" y="-56872"/>
+		<node x="152043" y="-55010"/>
+		<node x="150847" y="-51615"/>
+		<node x="145228" y="-51601"/>
+		<node x="143824" y="-54220"/>
+		<node x="143444" y="-56732"/>
+		<node x="144680" y="-58725"/>
+	</zone>
+</list>

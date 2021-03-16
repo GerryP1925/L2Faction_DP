@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<npc id="60000" idTemplate="25288" name="Anakim's Royal Guard" title="Faction Recruiter">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="12"/>
+		<set name="height" val="43"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="FactionManager"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="3440"/>
+		<set name="hp" val="54525"/>
+		<set name="mp" val="1641"/>
+		<set name="hpRegen" val="209"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="7674"/>
+		<set name="pDef" val="505"/>
+		<set name="mAtk" val="2507"/>
+		<set name="mDef" val="493"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="41"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="65"/>
+		<set name="runSpd" val="220"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+	</npc>
+	<npc id="60001" idTemplate="25284" name="Lilith's Agent" title="Faction Recruiter">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="9"/>
+		<set name="height" val="34"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="FactionManager"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="3440"/>
+		<set name="hp" val="73063"/>
+		<set name="mp" val="1641"/>
+		<set name="hpRegen" val="209"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="10232"/>
+		<set name="pDef" val="505"/>
+		<set name="mAtk" val="4457"/>
+		<set name="mDef" val="493"/>
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="41"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="MAGE" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+	</npc>
+	<npc id="60002" idTemplate="30006" name="Roxxy" title="Event Gatekeeper">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="25"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="FactionGatekeeper"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="2444"/>
+		<set name="mp" val="1345"/>
+		<set name="hpRegen" val="7"/>
+		<set name="mpRegen" val="2"/>
+		<set name="pAtk" val="688"/>
+		<set name="pDef" val="295"/>
+		<set name="mAtk" val="470"/>
+		<set name="mDef" val="216"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="120"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+	</npc>
+	<npc id="60003" idTemplate="30006" name="Roxxy" title="Gatekeeper">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="25"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="FactionGatekeeper"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="2444"/>
+		<set name="mp" val="1345"/>
+		<set name="hpRegen" val="7"/>
+		<set name="mpRegen" val="2"/>
+		<set name="pAtk" val="688"/>
+		<set name="pDef" val="295"/>
+		<set name="mAtk" val="470"/>
+		<set name="mDef" val="216"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="120"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+	</npc>
+	<npc id="60004" idTemplate="30006" name="Roxxy" title="Buffer">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="25"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Buffer"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="2444"/>
+		<set name="mp" val="1345"/>
+		<set name="hpRegen" val="7"/>
+		<set name="mpRegen" val="2"/>
+		<set name="pAtk" val="688"/>
+		<set name="pDef" val="295"/>
+		<set name="mAtk" val="470"/>
+		<set name="mDef" val="216"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="120"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+	</npc>
+</list>

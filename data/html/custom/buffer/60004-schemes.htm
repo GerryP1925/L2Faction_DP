@@ -1,0 +1,44 @@
+<html>
+<title>Buffer - Schemes / Target - %target%</title>
+<body>
+<br>
+In order to create a scheme, <font color="LEVEL">take your buffs</font> normally then enter a name for your scheme and press <font color="LEVEL">Save</font>.
+<br1>
+<font color="LEVEL">Note:</font> If your buff target is your pet, the scheme will be saved with the buffs your pet currently has. 
+Pet saved schemes can only be used on pets.
+<br>
+<center>
+<img src="L2UI.SquareWhite" width=270 height=1>
+<br>
+<font color="LEVEL">3-16 characters, letter and numbers allowed.</font>
+<table>
+<tr>
+<td>
+<edit var="name" width="90" height="18">
+</td>
+<td>
+<button value="Save" action="bypass -h npc_%objectId%_save $name" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal">
+</td>
+</tr>
+</table>
+<br>
+Your schemes <font color="FF4200">(%currentSchemes%/5)</font>:
+<br>
+<table>
+<tr>
+<td width="18"><font color="FF4200">#</font></td>
+<td width="90"><font color="FF4200">Name</font></td>
+<td width="50"><font color="FF4200">Target</font></td>
+<td width="30"></td>
+<td width="34"></td>
+</tr>
+%schemes%
+</table>
+<br>
+<br>
+<img src="L2UI.SquareWhite" width=270 height=1>
+<br>
+<button value="Back" action="bypass -h npc_%objectId%_Chat 0" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal">
+</center>
+</body>
+</html>

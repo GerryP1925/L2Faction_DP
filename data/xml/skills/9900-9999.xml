@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="9900" levels="1" name="CP Restore">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="CONT"/>
+		<set name="operateType" val="TOGGLE"/>
+		<for>
+			<effect count="0x7fffffff" name="AutoPotion" val="1" stackType="cp" stackOrder="95"/>
+		</for>
+	</skill>
+	<skill id="9901" levels="1" name="HP Restore">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="CONT"/>
+		<set name="operateType" val="TOGGLE"/>
+		<for>
+			<effect count="0x7fffffff" name="AutoPotion" val="12" stackType="hp" stackOrder="95"/>
+		</for>
+	</skill>
+	<skill id="9902" levels="1" name="MP Restore">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="CONT"/>
+		<set name="operateType" val="TOGGLE"/>
+		<for>
+			<effect count="0x7fffffff" name="AutoPotion" val="4" stackType="mp" stackOrder="95"/>
+		</for>
+	</skill>
+</list>

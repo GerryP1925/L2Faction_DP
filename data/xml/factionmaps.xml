@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<event id="1" name="Talking Island - Battlefield" type="MAP" subtype="PVP" duration="30"> <!-- Talking Island - Battlefield Map -->
+		<teamSpawns>
+			<spawn team="1" x="-82450" y="245672" z="-3704" />
+			<spawn team="1" x="-86951" y="244227" z="-3720" />
+			<spawn team="2" x="-82115" y="240771" z="-3712" />
+			<spawn team="2" x="-86509" y="240338" z="-3696" />
+		</teamSpawns>
+		<radar x="-84263" y="242998" z="-3600" />
+		<boss id="60005" x="-84552" y="242546" z="-3728" time="25" />
+	</event>
+	<event id="2" name="Dominion" type="MAP" subtype="DOMINION" duration="25"> <!-- Dominion map test -->
+		<teamSpawns>
+			<spawn team="1" x="0" y="0" z="0" />
+			<spawn team="1" x="0" y="0" z="0" />
+			<spawn team="2" x="0" y="0" z="0" />
+			<spawn team="2" x="0" y="0" z="0" />
+		</teamSpawns>
+		<flag x="0" y="0" z="0" />
+		<flag x="0" y="0" z="0" />
+		<radar x="0" y="0" z="0" />
+	</event>
+	<event id="3" name="Fortress Siege" type="MAP" subtype="SIEGEF" duration="25"> <!-- Fortress Siege map test -->
+		<teamSpawns>
+			<spawn team="1" x="0" y="0" z="0" />
+			<spawn team="1" x="0" y="0" z="0" />
+			<spawn team="2" x="0" y="0" z="0" />
+			<spawn team="2" x="0" y="0" z="0" />
+		</teamSpawns>
+		<door id="0" />
+		<door id="0" />
+		<flag x="0" y="0" z="0" />
+		<radar x="0" y="0" z="0" />
+	</event>
+	<event id="4" name="Simon Says" type="MINI" subtype="SIMONSAYS"> <!-- Simon Says mini test -->
+		<teamSpawn x="0" y="0" z="0" />
+		<simon id="0" x="0" y="0" z="0" />
+	</event>
+	<event id="5" name="Lucky Chests" type="MINI" subtype="LUCKYCHESTS"> <!-- Lucky Chests mini test -->
+		<teamSpawn x="0" y="0" z="0" />
+		<chest id="0" minX="0" maxX="0" minY="0" maxY="0" z="0" amount="100" />
+	</event>
+	<event id="6" name="TvT" type="FULL" subtype="TVT" duration="10" register="3"> <!-- TvT full event test -->
+		<teamSpawns>
+			<spawn team="1" x="0" y="0" z="0" />
+			<spawn team="1" x="0" y="0" z="0" />
+			<spawn team="2" x="0" y="0" z="0" />
+			<spawn team="2" x="0" y="0" z="0" />
+		</teamSpawns>
+	</event>
+	<event id="7" name="Deathmatch" type="FULL" subtype="DM" duration="10" register="3"> <!-- DM full event test -->
+		<playerSpawns>
+			<spawn x="0" y="0" z="0" />
+			<spawn x="0" y="0" z="0" />
+			<spawn x="0" y="0" z="0" />
+		</playerSpawns>
+	</event>
+</list>
